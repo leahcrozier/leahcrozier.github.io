@@ -1,0 +1,48 @@
+body {
+  background-image: url("background1.png");
+    background-repeat:repeat;
+}
+p{
+ color: #FCD3DE;
+
+}
+#title {
+  text-align: center;
+  color: #FCD3DE;
+  text-shadow: 0 0 15px #72A1E5;
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+}
+
+#linething  {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 15px 1.5px #72A1E5;
+}
+
+#menu {
+    background-color: #72A1E5;
+    overflow: hidden;
+}
+
+
+#menu a {
+    float: left;
+    color: #FCD3DE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#menu a:hover {
+    background-color: #50C9CE;
+    color: #9883E5;
+}
+
+
+#menu a.active {
+    background-color: #50C9CE;
+    color: #9883E5;
+}
