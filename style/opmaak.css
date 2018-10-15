@@ -2,8 +2,13 @@ body {
   background-image: url("background1.png");
     background-repeat:repeat;
 }
+
+header{
+  
+}
 p{
  color: #FCD3DE;
+ font-family: 'Niramit', sans-serif;
 
 }
 #title {
@@ -23,6 +28,7 @@ p{
 #menu {
     background-color: #72A1E5;
     overflow: hidden;
+    font-family: 'Niramit', sans-serif;
 }
 
 
@@ -32,6 +38,7 @@ p{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Niramit', sans-serif;
     font-size: 17px;
 }
 
@@ -39,10 +46,25 @@ p{
 #menu a:hover {
     background-color: #50C9CE;
     color: #9883E5;
+    font-family: 'Niramit', sans-serif;
 }
 
 
 #menu a.active {
     background-color: #50C9CE;
     color: #9883E5;
+    font-family: 'Niramit', sans-serif;
+}
+
+footer{
+ color: #FCD3DE;
+ font-family: 'Niramit', sans-serif;
+
+}
+
+article {
+   color: #FCD3DE;
+   border: 2px;
+   border-color: #FCD3DE;
+   font-family: 'Niramit', sans-serif;
 }
