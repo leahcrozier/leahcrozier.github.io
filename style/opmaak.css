@@ -3,9 +3,6 @@ body {
     background-repeat:repeat;
 }
 
-header{
-  
-}
 p{
  color: #FCD3DE;
  font-family: 'Niramit', sans-serif;
@@ -20,12 +17,24 @@ p{
 }
 
 #linething  {
-    border: 0;
+  position:
+sticky;
+  top:0.75%;
+    height: 0;
+    box-shadow: 0 0 15px 1.5px #72A1E5;
+}
+#linething2  {
+  position:
+sticky;
+  top: 11.75%;
     height: 0;
     box-shadow: 0 0 15px 1.5px #72A1E5;
 }
 
 #menu {
+  position:
+sticky;
+  top: 2%;
     background-color: #72A1E5;
     overflow: hidden;
     font-family: 'Niramit', sans-serif;
