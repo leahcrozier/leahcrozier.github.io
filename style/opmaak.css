@@ -26,7 +26,7 @@ sticky;
 #linething2  {
   position:
 sticky;
-  top: 11.75%;
+  top: 11.6%;
     height: 0;
     box-shadow: 0 0 15px 1.5px #72A1E5;
 }
@@ -56,6 +56,7 @@ sticky;
     background-color: #50C9CE;
     color: #9883E5;
     font-family: 'Niramit', sans-serif;
+    animation: blink 1s linear infinite;
 }
 
 
@@ -76,4 +77,11 @@ article {
    border: 2px;
    border-color: #FCD3DE;
    font-family: 'Niramit', sans-serif;
+}
+
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
 }
