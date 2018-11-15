@@ -6,8 +6,17 @@ body {
 p{
  color: #FCD3DE;
  font-family: 'Niramit', sans-serif;
-
 }
+h1 {
+  color: #FCD3DE;
+  font-family: 'Niramit', sans-serif;
+}
+h2 {
+  color: #FCD3DE;
+  font-family: 'Niramit', sans-serif;
+  text-decoration: underline;
+}
+
 #title {
   text-align: center;
   color: #FCD3DE;
