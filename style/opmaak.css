@@ -17,7 +17,7 @@ h2 {
   text-decoration: underline;
 }
 
-#title {
+header{
   text-align: center;
   color: #FCD3DE;
   text-shadow: 0 0 15px #72A1E5;
@@ -40,7 +40,7 @@ sticky;
     box-shadow: 0 0 15px 1.5px #72A1E5;
 }
 
-#menu {
+nav {
   position:
 sticky;
   top: 2%;
@@ -50,7 +50,7 @@ sticky;
 }
 
 
-#menu a {
+nav a {
     float: left;
     color: #FCD3DE;
     text-align: center;
@@ -61,7 +61,7 @@ sticky;
 }
 
 
-#menu a:hover {
+nav a:hover {
     background-color: #50C9CE;
     color: #9883E5;
     font-family: 'Niramit', sans-serif;
@@ -69,13 +69,18 @@ sticky;
 }
 
 
-#menu a.active {
+nav a.active {
     background-color: #50C9CE;
     color: #9883E5;
     font-family: 'Niramit', sans-serif;
 }
 
 footer{
+  font-size: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
  color: #FCD3DE;
  font-family: 'Niramit', sans-serif;
 
@@ -93,4 +98,12 @@ article {
 0%{opacity: 0;}
 50%{opacity: .5;}
 100%{opacity: 1;}
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
